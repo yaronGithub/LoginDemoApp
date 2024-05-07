@@ -84,6 +84,9 @@ namespace LoginDemoApp.Services
                 return "FAILED WITH EXCEPTION!";
             }
         }
+        public async Task<User> GetFullUserObject()
+        {
 
+        }
     }
 }
